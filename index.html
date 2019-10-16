@@ -746,7 +746,60 @@ Boosts for drinking Sacred and UP. These are both one time uses only in IC, and 
  </div>
 <!------------------------------------------->
  
- 
+  
+<!---- <div class=hide>
+<script type="text/javascript">
+function checkPswd() {
+        var confirmPassword = "admin";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="welcome.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+
+
+</script>
+</div>
+
+
+
+
+
+<div id="99" class=hide >
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+
+
+
+
+</div>
+
+document.onkeydown = checkKey;
+
+function checkKey(j) {
+
+    j = j || window.event;
+
+var j3 = document.getElementById(99)
+
+    
+if (j.keyCode == '38') 
+
+
+j3.style.display = 'block'; 
+
+        // up arrow
+    alert("You pressed a key sfsfsfsfst field");
+
+  
+} --->
+
  
  
  <!---Shortcut edits--Light blue color = 00ccff | -------------------------------------->
